@@ -177,7 +177,7 @@ Martti Raavel
 
 ## Panustamine õppematerjalidesse
 
-![Panustamine õppeamterjalidesse](Panustamine.png)
+![Panustamine õppematerjalidesse](images/Panustamine.png)
 
 ---
 

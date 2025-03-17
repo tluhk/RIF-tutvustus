@@ -20,14 +20,15 @@ Martti Raavel
 
 - TLÜ Haapsalu kolledži rakendusinformaatika õppekava juht
 - Õpetame veebiarendust
-- Arengud tarkvaraarenduses ja väljakutsed sellega seoses
+- Arengud ja väljakutsed tarkvaraarenduses
 
 ---
 
 ## Millest juttu tuleb?
 
-- Mis on generatiivne TI?
+- Mis on generatiivne tehisinttelekt (TI)?
 - Kuidas kasutatakse generatiivset TI-d tarkvaraarenduses?
+- Teeme ühe veebirakenduse
 - Kas tulevikus (või juba praegu) on programmeerimise oskused üldse vajalikud?
 
 ---
@@ -54,11 +55,9 @@ Allikas: <https://www.tlu.ee/tehisintellekt>
 
 ## Kuidas TI-d kasutatakse tarkvaraarenduses?
 
-Generatiivne TI on muutnud tarkvaraarendust mitmel viisil:
-
+- **Koodi genereerimine**
 - Koodi testimine
 - Koodi dokumenteerimine
-- **Koodi genereerimine**
 - Koodi täiustamine
 - ...
 
@@ -74,7 +73,7 @@ Generatiivne TI on muutnud tarkvaraarendust mitmel viisil:
 
 ---
 
-## Prompt
+## Viip
 
 `Palun loo lihtne veebipõhine rakendus ostunimekirja haldamiseks.`
 
@@ -94,7 +93,7 @@ GitHubi andmetel kasutab üle 90% USA arendajatest mingil moel AI koodiassistent
 
 - Lihtsus ja mugavus
 - Kiirus, suurem tootlikkus
-- Vigade leidmine (kirjavead, erinevad nimetused muutjates jne)
+- Vigade leidmine (kirjavead, erinevad nimetused muutujates jne)
 - Algajatele sobiv, aga ...
 - ...
 
@@ -106,7 +105,9 @@ GitHubi andmetel kasutab üle 90% USA arendajatest mingil moel AI koodiassistent
 - Keeruliste projektide puhul ei pruugi nii hästi töötada
 - Ajakohasus (põhineb treeningandmetel)
 - Turvalisus
-- Sõltuvus ja oskuste kahanemine
+- Sõltuvus TI-st ja arendaja oskuste kahanemine
+- Võltsenesekindlus
+- TI hallustsineerimine
 - ...
 
 ---
@@ -115,7 +116,7 @@ GitHubi andmetel kasutab üle 90% USA arendajatest mingil moel AI koodiassistent
 
 - Suurem tootlikus (korduvad ja 'tüütud' ülesanded jne)
 - Vigade leidmine (kirjavead, erinevad nimetused muutjates jne)
-- TI kirjutatud koodis on vähem vigu ihtsates ülesannetes
+- TI kirjutatud koodis on vähem vigu lihtsates ülesannetes
 - TI kirjutatud koodis on rohkem vigu keerulistes ülesannetes
 - TI kirjutatud kood on sageli pikem, kui inimese poolt kirjutatud kood (kordused, ebavajalikud osad)
 - TI sobib rohkem tüüpiliste lahenduste loomiseks
@@ -124,6 +125,17 @@ GitHubi andmetel kasutab üle 90% USA arendajatest mingil moel AI koodiassistent
 ---
 
 ## Kui soovid olla tarkvaraarendaja, siis kas on veel vaja osata programmeerida?
+
+---
+
+## Kindasti on!
+
+- Ilma tugeva vundamendita ei saa ka TI abil ehitada turvalist ja toimivat tarkvara
+- Arendaja roll on muutunud - inimese ja TI sümbioos
+
+> Tehisintellekt ei asenda arendajat, vaid täiendab teda
+>
+> P.S. Sama kehtib ka muude valdkondade kohta (kaasa arvatud õppimine)
 
 ---
 
@@ -138,7 +150,7 @@ See võib hõlmata näiteks veebilehe taustavärvi muutmist, elementide peitmist
 ## Turvalisus - CSS süstimine - näide
 
 ```html
-"Take out the trash
+"Hambapasta
 <style>
   body {
     background-color: red !important;
@@ -171,7 +183,7 @@ HTML süstimine on rünnak, mille käigus ründaja lisab pahatahtlikku HTML-i ve
 ## Turvalisus - HTML süstimine - 1
 
 ```html
-<a href="https://pahatahtlik.leht/phishing">Kõnni kolm kilomeetrit</a>
+<a href="https://www.example.com">Pesupulber</a>
 ```
 
 ---
@@ -179,8 +191,18 @@ HTML süstimine on rünnak, mille käigus ründaja lisab pahatahtlikku HTML-i ve
 ## HTML süstimine - 2
 
 ```html
-Pick up groceries
+Jahu
 <button onclick="window.open('https://www.example.com', '_blank')">
   Go to Example
 </button>
 ```
+
+---
+
+## Allikad
+
+- <https://www.tlu.ee/tehisintellekt>
+- <https://extendedstudies.ucsd.edu/news-events/extended-studies-blog/will-ai-replace-programmers-navigating-the-future-of-coding>
+- <https://www.salesforceben.com/will-ai-replace-developers-4-senior-developers-weigh-in>
+- <https://htec.com/insights/blogs/dual-edge-ai-coding-pros-cons-using-ai-code-generators>
+- <https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience/>

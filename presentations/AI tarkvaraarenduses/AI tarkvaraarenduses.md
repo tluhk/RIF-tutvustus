@@ -39,7 +39,7 @@ Martti Raavel
 
 ## Mis on generatiivne TI?
 
-Generatiivne TI, üks tehisintellekti rakendustest, võimaldab luua uut sisu, sh teksti, pilte ja heli. Seda tüüpi tehnoloogiat treenitakse olemasolevate näidete peal, näiteks tekstiandmed nagu raamatud ja veebilehed- masina õppimisprotsessi järel saabki TI abil luua sarnast sisu.
+"Generatiivne TI, üks tehisintellekti rakendustest, võimaldab luua uut sisu, sh teksti, pilte ja heli. Seda tüüpi tehnoloogiat treenitakse olemasolevate näidete peal, näiteks tekstiandmed nagu raamatud ja veebilehed- masina õppimisprotsessi järel saabki TI abil luua sarnast sisu."
 
 Allikas: <https://www.tlu.ee/tehisintellekt>
 

@@ -1,0 +1,134 @@
+---
+marp: true
+theme: default
+backgroundImage: url('images/HaapsaluK_est.png')
+backgroundPosition: 20px calc(100% - 20px)
+backgroundSize: 250px
+---
+
+# Tehisintellekt (TI) igapäevatöös
+
+Martti Raavel
+
+<martti.raavel@tlu.ee>
+
+---
+
+## Miks mina täna siin olen?
+
+- TLÜ Haapsalu kolledži rakendusinformaatika õppekava juht
+- Õpetame veebiarendust
+- Arengud ja väljakutsed tarkvaraarenduses
+
+---
+
+## Millest juttu tuleb?
+
+- Mis on generatiivne tehisinttelekt (TI)?
+- Kuidas mina kasutan TI-d oma igapäevatöös?
+
+---
+
+## Mis on generatiivne TI?
+
+---
+
+## Mis on generatiivne TI?
+
+"Generatiivne TI, üks tehisintellekti rakendustest, võimaldab luua uut sisu, sh teksti, pilte ja heli. Seda tüüpi tehnoloogiat treenitakse olemasolevate näidete peal, näiteks tekstiandmed nagu raamatud ja veebilehed- masina õppimisprotsessi järel saabki TI abil luua sarnast sisu."
+
+Allikas: <https://www.tlu.ee/tehisintellekt>
+
+---
+
+## Kui paljud teist kasutavad TI-d?
+
+---
+
+## Mille jaoks te TI-d kasutate?
+
+---
+
+## TI tööriistad
+
+- ChatGPT
+- GitHub Copilot
+- Google Gemini
+- DeepSeek
+- ...
+
+---
+
+## Räägime ChatGPT-st
+
+Mida ChatGPT teha osab?
+
+- Vastata küsimustele ja selgitada kontseptsioone
+- Luua, ümber kirjutada või kokku võtta sisu (dokumendid, pildid, kood, artiklid jne)
+- Anda loomingulisi ettepanekuid (nt kirjutada lugusid või ideid)
+- Lahendada probleeme loogilise mõtlemise abil
+- Tõlkida erinevate keelte vahel
+- Andmeanalüüs ja statistika
+- Koodi kirjutamine ja parandamine
+- ...
+
+---
+
+## Kuidas mina TI-d kasutan?
+
+- Õppematerjalide loomine
+- Ülesannete genereerimine
+- Mõtete vahetamine
+- Koodi genereerimine
+- Dokumentatsiooni loomine
+- ...
+
+---
+
+## Paar näidet
+
+---
+
+## Viip ja selle kirjutamine
+
+---
+
+## Mis on Viip?
+
+Viip on tekstisisend, mis algatab vestluse või kutsub TI-d vastama. See võib olla ka mõnes muus vormis, näiteks pilt või heli.
+
+---
+
+## Kuidas kirjutada head viipa?
+
+- Ole selge ja konkreetne
+- Kasuta erinevat tooni
+  - Akadeemiline, sõbralik, ametlik, loominguline jne
+- Kasuta konteksti
+  - Anna piisavalt taustainformatsiooni
+- Kasuta näiteid
+- Itereeri ja täpsusta
+
+---
+
+## Teeme mõned näited
+
+---
+
+## Teeme lihtsa veebirakenduse?
+
+`Palun loo lihtne veebipõhine rakendus ostunimekirja haldamiseks.`
+
+---
+
+## Kas tänapäeval nii käibki?
+
+---
+
+
+
+## Allikad
+
+- <https://www.tlu.ee/tehisintellekt>
+- <https://help.openai.com/en/articles/9260256-chatgpt-capabilities-overview>
+- 

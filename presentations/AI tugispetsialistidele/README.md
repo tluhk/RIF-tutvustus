@@ -14,18 +14,22 @@ Martti Raavel
 
 ---
 
-## Miks mina täna siin olen?
+## Kes ma olen ja miks ma siin olen?
 
 - TLÜ Haapsalu kolledži rakendusinformaatika õppekava juht
-- Õpetame veebiarendust
-- Arengud ja väljakutsed tarkvaraarenduses
+- Informaatikaõpetaja MA
+- Õpetan programmeerimist, uurimisaineid ja juhendan prakikaid
+- Puutun TI-ga kokku igapäevaselt (nii sõber, kui vaenlane)
+- ...
 
 ---
 
 ## Millest juttu tuleb?
 
 - Mis on generatiivne tehisinttelekt (TI)?
-- Kuidas mina kasutan TI-d oma igapäevatöös?
+- TI tööriistad
+- Mida TI teha oskab?
+- Kuidas kasutan TI-d oma igapäevatöös?
 
 ---
 
@@ -45,14 +49,10 @@ Allikas: <https://www.tlu.ee/tehisintellekt>
 
 ---
 
-## Mille jaoks te TI-d kasutate?
-
----
-
 ## TI tööriistad
 
 - ChatGPT
-- GitHub Copilot
+- Copilot
 - Google Gemini
 - DeepSeek
 - ...
@@ -85,15 +85,11 @@ Mida ChatGPT teha osab?
 
 ---
 
-## Paar näidet
-
----
-
 ## Viip ja selle kirjutamine
 
 ---
 
-## Mis on Viip?
+## Mis on Viip (prompt)?
 
 Viip on tekstisisend, mis algatab vestluse või kutsub TI-d vastama. See võib olla ka mõnes muus vormis, näiteks pilt või heli.
 
@@ -111,7 +107,16 @@ Viip on tekstisisend, mis algatab vestluse või kutsub TI-d vastama. See võib o
 
 ---
 
-## Teeme mõned näited
+## Roll, Eesmärk, Ülesanne, Detailid
+
+- **Roll**: Määra, millises rollis TI peaks tegutsema (nt õpetaja, arendaja, disainer).
+- **Eesmärk**: Määra, mida soovid saavutada (nt luua veebirakendus, kirjutada artikkel).
+- **Ülesanne**: Kirjelda, millist ülesannet TI peaks täitma (nt kirjutada kood, luua sisu).
+- **Detailid**: Lisa täiendavad juhised või piirangud (nt kasutatavad tehnoloogiad, stiil, pikkus).
+
+---
+
+## Paar näidet
 
 ---
 
@@ -121,11 +126,9 @@ Viip on tekstisisend, mis algatab vestluse või kutsub TI-d vastama. See võib o
 
 ---
 
-## Kas tänapäeval nii käibki?
+## ...
 
 ---
-
-
 
 ## Allikad
 

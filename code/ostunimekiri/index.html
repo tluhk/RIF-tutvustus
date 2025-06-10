@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostunimekiri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-shopping-cart"></i> Ostunimekiri</h1>
+            <p class="subtitle">Halda oma ostuid lihtsalt ja mugavalt</p>
+        </header>
+
+        <main class="main">
+            <!-- Toote lisamise vorm -->
+            <section class="add-item-section">
+                <form id="add-item-form" class="add-form">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="item-name" 
+                            placeholder="Sisesta toote nimi..." 
+                            required
+                            class="item-input"
+                        >
+                        <input 
+                            type="number" 
+                            id="item-quantity" 
+                            placeholder="Kogus" 
+                            min="1" 
+                            value="1"
+                            class="quantity-input"
+                        >
+                        <button type="submit" class="add-btn">
+                            <i class="fas fa-plus"></i> Lisa
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Nimekirja statistika -->
+            <section class="stats-section">
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-items">0</span>
+                        <span class="stat-label">Tooteid kokku</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="completed-items">0</span>
+                        <span class="stat-label">Ostetud</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="remaining-items">0</span>
+                        <span class="stat-label">Järele jäänud</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Filtreerimise nupud -->
+            <section class="filter-section">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-list"></i> Kõik
+                    </button>
+                    <button class="filter-btn" data-filter="pending">
+                        <i class="fas fa-clock"></i> Ostmata
+                    </button>
+                    <button class="filter-btn" data-filter="completed">
+                        <i class="fas fa-check"></i> Ostetud
+                    </button>
+                </div>
+                <button id="clear-completed" class="clear-btn">
+                    <i class="fas fa-trash"></i> Eemalda ostetud
+                </button>
+            </section>
+
+            <!-- Ostunimekirja loend -->
+            <section class="shopping-list-section">
+                <ul id="shopping-list" class="shopping-list">
+                    <!-- Toodete loend genereeritakse JavaScriptiga -->
+                </ul>
+                <div id="empty-state" class="empty-state">
+                    <i class="fas fa-shopping-basket"></i>
+                    <h3>Nimekiri on tühi</h3>
+                    <p>Lisa esimene toode, et alustada!</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Muutmise modal -->
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-edit"></i> Muuda toodet</h2>
+                <button class="close-btn" id="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="edit-form">
+                <div class="form-group">
+                    <label for="edit-item-name">Toote nimi:</label>
+                    <input type="text" id="edit-item-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-item-quantity">Kogus:</label>
+                    <input type="number" id="edit-item-quantity" min="1" required>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="cancel-btn" id="cancel-edit">Tühista</button>
+                    <button type="submit" class="save-btn">Salvesta</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

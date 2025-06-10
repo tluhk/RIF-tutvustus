@@ -26,7 +26,7 @@ Martti Raavel
 
 ## Millest juttu tuleb?
 
-- Mis on generatiivne tehisinttelekt (TI)?
+- Mis on generatiivne tehisintelekt (TI)?
 - TI tööriistad
 - Mida TI teha oskab?
 - Kuidas kasutan TI-d oma igapäevatöös?
@@ -122,7 +122,15 @@ Viip on tekstisisend, mis algatab vestluse või kutsub TI-d vastama. See võib o
 
 ## Teeme lihtsa veebirakenduse?
 
-`Palun loo lihtne veebipõhine rakendus ostunimekirja haldamiseks.`
+Sa oled kogenud veebiarendaja.
+
+Sinu ülesanne on luua lihtne veebirakendus, mis aitab kasutajal ostunimekirja hallata.
+
+Rakendus peab võimaldama kasutajal lisada, muuta ja kustutada tooteid ning kuvada kogu nimekiri.
+
+Rakendus peab olema kirjutatud HTML, CSS ja JavaScriptis. Kasuta kaasaegseid tehnoloogiaid ja parimaid praktikaid.
+
+Rakendus peab välja nägema moodne ja kasutajasõbralik ning olema mobiilisõbralik.
 
 ---
 

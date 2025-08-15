@@ -17,7 +17,7 @@ Martti Raavel
 
 ## Probleem
 
-Kuidas integreerida versioonihaldust (Git) igapäevasesse õppetöösse ja muuta see õpilastele arusaadavaks?
+Kuidas integreerida versioonihaldust (Git) igapäevasesse õppetöösse ja muuta see õpilastele lihtsaks ja arusaadavaks?
 
 ---
 
@@ -26,6 +26,7 @@ Kuidas integreerida versioonihaldust (Git) igapäevasesse õppetöösse ja muuta
 - Versioonihaldus on oluline oskus, mida nõutakse paljudes IT-valdkondades.
 - Versioonihalduskeskkonnad võimaldavad koostööd ja koodi jagamist, mis on tänapäeva tarkvaraarenduses hädavajalik.
 - Õpilased saavad praktilisi kogemusi, mis valmistavad neid ette tööturuks.
+- Üha rohkem kasutatakse versioonihaldust ka otselt IT-ga mitteseotud valdkondades.
 
 ---
 
@@ -46,7 +47,7 @@ Kuidas integreerida versioonihaldust (Git) igapäevasesse õppetöösse ja muuta
 ## Kuidas üritame probleemidest üle saada?
 
 - Järjekindel kasutamine alates esimesest päevast
-  - Õppematerjalide jagamine
+  - Õppematerjalid repositooriumites
   - Ülesannete jagamine (Issued)
   - ...
 - Tekstifailid (Markdown)
@@ -113,6 +114,13 @@ See on tarkvaraarenduses oluline osa, mis aitab tagada koodi kvaliteeti ja vähe
 
 ---
 
+## Lisad koduste töödega seoses
+
+- Koduste tööde Issued lisatakse ka eraldi projekti alla, et kõik kodused tööd oleksid leitavad ühest kohast
+- Tegemata koduseid töid tuletab kord nädalas meelde Discordi bot
+
+---
+
 ## Demonstratsioon
 
 ---
@@ -126,8 +134,8 @@ See on tarkvaraarenduses oluline osa, mis aitab tagada koodi kvaliteeti ja vähe
   - Analüütika
   - Läbipaistvus
   - ...
-- Õpilastele kasulik oskus (tööturul nõutud)
-- Mingil määral isedokumenteeriv
+- Mingil määral isedokumenteeruv
+- Õpilastele kasulik oskus
 - ...
 
 ---

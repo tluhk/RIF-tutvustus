@@ -29,7 +29,7 @@ TLÜ HK RIF õppekava juht
 
 Veebiarendusele keskenduv rakenduskõrghariduse õppekava.
 
-Ei ole ainult programmeerimine, vaid ka kõik muu, mis veebiarendusega kaasas käib, alates disainist ja kasutajakogemusest kuni valmis lahendueni.
+Ei ole ainult programmeerimine, vaid ka kõik muu, mis veebiarendusega kaasas käib, alates disainist ja kasutajakogemusest kuni valmis lahendusteni.
 
 ---
 
@@ -170,7 +170,7 @@ Selle aja jooksul proovinud erinevaid lähenemisi ja tööriistu.
 
 - Lihtsam õpetajate kaasamine
 - Koduste tööde haldamine
-- Ühtlustatud protsess
+- Ühtlustatud protsess ja struktuur
 - Erinevad lisad
   - Kohalolu märkimine
   - Küsitlused

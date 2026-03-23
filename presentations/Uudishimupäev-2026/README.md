@@ -15,6 +15,16 @@ TLÜ HK RIF õppekava juht
 
 ---
 
+## Rakendusinformaatika õppekava
+
+- Tarkvaraarendus
+- Programmeerimine
+- Andmebaasid
+- Disain
+- ...
+
+---
+
 ## Kes on kunagi mõelnud tarkvaraarendajaks hakkamise peale?
 
 ---
@@ -27,19 +37,13 @@ TLÜ HK RIF õppekava juht
 
 ---
 
-![Meme](meme-1.png)
-
-[Allikas](https://programmerhumor.io/ai-memes)
-
----
-
 ## Tarkvaraarenduse elutsükkel
 
 Tarkvaraarenduse elutsükkel (SDLC) on süsteemne protsess tarkvara planeerimiseks, loomiseks, testimiseks, juurutamiseks ja hooldamiseks. See määratleb etapid ja ülesanded, mis on seotud tarkvara tootmisega algusest kuni selle lõpetamiseni.
 
 ---
 
-## Tarkvaraarenduse elutsükkel
+## Tarkvaraarenduse elutsükkel (SDLC)
 
 ![SDLC](SDLC.png)
 
@@ -59,20 +63,75 @@ Lineaarne ja järjestikune lähenemine, kus iga faas tuleb lõpetada enne järgm
 
 ---
 
+## Mis võiks olla probleem kose meetodi puhul?
+
+---
+
+## Probleemid
+
+- Tarkvara arendamine võtab aega, vahel päris kaua
+- Nõuded võivad muutuda arendamise ajal
+- Protsess toimub ülevalt alla, eelmise sammu juurde tagasi ei minda
+- Kliendi tagasiside saabub alles lõpus, kui tarkvara on valmis
+- Kui lõpus midagi ei sobi, siis selle parandamine on kallis ja aeganõudev
+- ...
+
+---
+
+## Kose meetod - maja ehitamine
+
+Klient kirjeldab, millist maja ta soovib, arhitekt koostab plaani, ehitajad ehitavad maja, klient saab valmis maja ...
+
+Poole pealt ei saa enam midagi muuta ja kui valmis maja juures midagi ei sobi, siis selle ümbertegemine on kallis ja aeganõudev.
+
+---
+
 ## Agiilne meetod
 
-Iteratiivne lähenemine tarkvara tarnimisele, mis ehitab tarkvara järk-järgult, keskendudes kliendi tagasisidele ja kiiretele iteratsioonidele.
+Paindlik, tsükliline lähenemine tarkvara arendamisele, ,ille käigus luuakse tarkvara järk-järgult, keskendudes kliendi tagasisidele ja kiiretele iteratsioonidele.
 
 ![bg right height:500](agile.png)
 
 ---
 
-## Erinevad lähenemised, kuidas koodi kirjutatakse
+## Agiilse meetodi probleemid
 
-- Koodin kohe ja täpsustan jooksvalt
+- Ei tea, kui kaua arendamine aega võtab, kuna nõuded võivad pidevalt muutuda
+- Seetõttu ei tea ka seda, kui palju see lõpuks maksma läheb
+- ...
+
+---
+
+## Agiilne meetod - maja ehitamine
+
+Klient kirjeldab, millist maja ta soovib, arhitekt koostab plaani, ehitajad hakkavad maja ehitama, klient on kogu aeg protsessis kaasatud, saab anda tagasisidet ja teha muudatusi, kuni maja on valmis.
+
+---
+
+## Ükskõik, millise meetodi me valime, arusaamine kliendi nõuetest on kriitiline!!!
+
+Enne, kui me saame hakata päriselt tarkvara looma, on meil vaja selget arusaamist sellest, mida klient soovib.
+
+---
+
+![bg](image-1.png)
+
+---
+
+## Erinevad viisid, kudias lähenetakse arenduse osale selles tsüklis
+
+- ...
+- Kõigepealt kood ja siis testid
 - Testipõhine arendus (TDD)
 - Vaibkoodimine
 - Nõuetepõhine arendus
+- ...
+
+---
+
+## Kõigepealt kood ja siis testid
+
+Arendaja hakkab vastavalt nõuetele koodi kirjutama. Kui kood on valmis, siis testib ja kirjutab dokumentatsiooni.
 
 ---
 
@@ -105,12 +164,17 @@ describe("subtract", () => {
 
 ---
 
+## Vaibkoodimine
+
+![Meme](meme-1.png)
+
+[Allikas](https://programmerhumor.io/ai-memes)
+
+---
+
 ## Mis on vaibkoodimine?
 
-- Arendaja kirjeldab ideed loomulikus keeles
-- TI genereerib kiiresti koodi, prototüübi või muudatused
-- Tugevus: väga kiire algus ja eksperimenteerimine
-- Risk: kvaliteet, turvalisus ja nõuete katvus võivad jääda nõrgaks
+Vaibkoodimine on tarkvaraarenduse lähenemine, kus arendaja kasutab TI-d, et kiiresti genereerida koodi, prototüüpe või muudatusi, tuginedes loomulikus keeles esitatud ideedele ja nõuetele.
 
 ---
 
@@ -122,21 +186,27 @@ describe("subtract", () => {
 
 ## Vaibkoodimise viiba näide
 
-`Loo React + TypeScript kalkulaatori rakendus, kus on liitmine/lahutamine/korrutamine/jagamine, vigase sisendi käsitlemine, ühikutestid Vitestiga ja lühike README.`
+`Loo React + TypeScript kalkulaatori rakendus, kus on liitmine/lahutamine/korrutamine/jagamine. Kalkulaator peab toime tulema vigase sisendiga.`
 
 ---
 
 ## Vaibkoodimine praktikas
 
 - Hea: ideede katsetamine, demo, õppimine
-- Halb: kriitilised süsteemid ilma kontrollita
+- Halb: TI võib luua koodi, mis ei vasta nõuetele, on ebaühtlane, turvavigadega, raskesti hooldatav jne
 - Miinimumnõue: testid, koodi ülevaatus ja turvalisuse kontroll
 
 ---
 
 ## Nõuetepõhine arendus
 
+Vaibkoodimise struktureeritum ja kontrollitum lähenemine.
+
 Nõuetepõhine arendus tähendab siin tööviisi, kus kõigepealt koostatakse TI abil nõuete dokumentatsioon ja alles seejärel hakatakse rakendust arendama.
+
+---
+
+## Nõuetepõhine arendus
 
 ![SDD](SDD.png)
 
@@ -148,8 +218,10 @@ Nõuetepõhine arendus tähendab siin tööviisi, kus kõigepealt koostatakse TI
 2. TI loob versiooni v0.1: liitmine, lahutamine, korrutamine, jagamine
 3. Inimene täpsustab: vigase sisendi käsitlemine, nulliga jagamine, klaviatuuritugi
 4. TI uuendab dokumendi v0.2 ja lisab testitavad vastuvõtukriteeriumid
-5. Kordame tsüklit kuni nõuded on üheselt mõistetavad
-6. Alles siis: arhitektuur, kood, testid
+5. Järgmine viip: disaini ja arhitektuuri ettepanek
+6. TI loob v0.3: React + TypeScript, komponentide struktuur, andmevoog
+7. Kordame tsüklit kuni nõuded on üheselt mõistetavad
+8. Alles siis: arhitektuur, kood, testid
 
 ---
 
@@ -159,6 +231,12 @@ Nõuetepõhine arendus tähendab siin tööviisi, kus kõigepealt koostatakse TI
 - Iga iteratsioon vähendab arusaamatusi ja ümbertegemist
 - TI kiirendab variatsioonide loomist
 - Inimene kinnitab prioriteedid ja kvaliteedikriteeriumid
+
+---
+
+## Nõuetepõhine lähenemine vs vaibkoodimine
+
+Nõuetepõhise lähenemise puhul toetub TI kogu aeg konkreetsetele juhistele ja nõuetele, mis on eelnevalt kokku lepitud. Seetõttu on väiksem tõenäosus, et TI loob midagi, mis ei ole kooskõlas projekti eesmärkidega või kvaliteedistandarditega.
 
 ---
 
@@ -182,13 +260,13 @@ Nõuetepõhine arendus tähendab siin tööviisi, kus kõigepealt koostatakse TI
 
 ---
 
-![Under attack height:450](image-2.png)
+![Under attack height:450](fail-1.png)
 
 [Allikas](https://medium.com/data-science-in-your-pocket/dont-be-a-vibe-coder-30fa7c525971)
 
 ---
 
-![Under attack height:550](image-3.png)
+![Under attack height:550](fail-2.png)
 
 ---
 

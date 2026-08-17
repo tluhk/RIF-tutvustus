@@ -10,8 +10,16 @@ paginate: true
 # Mida peab teadma vaibkoodimisest?
 
 Martti Raavel
-TLÜ HK RIF õppekava juht
 <martti.raavel@tlu.ee>
+
+---
+
+## Minust
+
+- TLÜ Haapsalu kolledž Rakendusinformaatika õppekava juht 2021 - ...
+- Rakendusinformaatika BSc, TLÜ Haapsalu kolledž 2019
+- Informaatiakõpetaja MA, TLÜ 2021
+- Infoühiskonna tehnoloogiad, doktorant-üliõpilane TLÜ 2025 - ...
 
 ---
 
@@ -88,7 +96,7 @@ Poole pealt ei saa enam midagi muuta ja kui valmis maja juures midagi ei sobi, s
 
 ## Agiilne meetod
 
-Paindlik, tsükliline lähenemine tarkvara arendamisele, ,ille käigus luuakse tarkvara järk-järgult, keskendudes kliendi tagasisidele ja kiiretele iteratsioonidele.
+Paindlik, tsükliline lähenemine tarkvara arendamisele, mille käigus luuakse tarkvara järk-järgult, keskendudes kliendi tagasisidele ja kiiretele iteratsioonidele.
 
 ![bg right height:500](agile.png)
 
@@ -110,7 +118,7 @@ Klient kirjeldab, millist maja ta soovib, arhitekt koostab plaani, ehitajad hakk
 
 ## Ükskõik, millise meetodi me valime, arusaamine kliendi nõuetest on kriitiline!!!
 
-Enne, kui me saame hakata päriselt tarkvara looma, on meil vaja selget arusaamist sellest, mida klient soovib.
+Enne, kui me saame hakata päriselt tarkvara looma, on meil vaja selget ja põhjalikku arusaamist sellest, mida klient soovib.
 
 ---
 
@@ -118,7 +126,7 @@ Enne, kui me saame hakata päriselt tarkvara looma, on meil vaja selget arusaami
 
 ---
 
-## Erinevad viisid, kudias lähenetakse arenduse osale selles tsüklis
+## Erinevad viisid, kuidas lähenetakse arenduse osale selles tsüklis
 
 - ...
 - Kõigepealt kood ja siis testid
@@ -138,6 +146,8 @@ Arendaja hakkab vastavalt nõuetele koodi kirjutama. Kui kood on valmis, siis te
 ## Testipõhine arendus
 
 Testipõhine arendus (TDD) on tarkvaraarenduse meetod, kus arendaja kirjutab esmalt testid, mis kirjeldavad soovitud funktsionaalsust, ja seejärel kirjutab koodi, mis need testid läbib. See protsess aitab tagada, et kood vastab nõuetele ja on hästi testitud.
+
+Lisaks täidavad testid mingil määral ka dokumentatsiooni eesmärki.
 
 ---
 
@@ -221,7 +231,7 @@ Nõuetepõhine arendus tähendab siin tööviisi, kus kõigepealt koostatakse TI
 5. Järgmine viip: disaini ja arhitektuuri ettepanek
 6. TI loob v0.3: React + TypeScript, komponentide struktuur, andmevoog
 7. Kordame tsüklit kuni nõuded on üheselt mõistetavad
-8. Alles siis: arhitektuur, kood, testid
+8. Alles siis: kood, testid jne
 
 ---
 
@@ -251,6 +261,10 @@ Nõuetepõhise lähenemise puhul toetub TI kogu aeg konkreetsetele juhistele ja 
 - Vaibkoodimine on kiire, kuid vajab tugevat kontrolli
 - Nõuete loomine enne koodi vähendab riske ja aitab paranda kvaliteeti (ühtlus, nõuetest kinnipidamine, turvalisus jne)
 - Parim tulemus tuleb iteratiivsest nõuete täpsustamisest
+
+---
+
+## Aitäh!
 
 ---
 
